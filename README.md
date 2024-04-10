@@ -20,4 +20,12 @@ After this, running
 ```
 mqsilist -n ./tls-connect-jks.broker
 ```
+or
+```
+mqsilist -n ./tls-connect-pkcs12.broker
+```
 should connect successfully.
+
+Note that the truststore used in the .broker files must use either ".jks" or ".pkcs12" as
+the truststore extension (and not ".p12") because the ACE commands use the extension to set
+the Java truststore type.

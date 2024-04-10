@@ -1,2 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<IntegrationNodeConnectionParameters Version="11.0.0" host="localhost" integrationNodeName="TLSBroker" listenerPort="4419" sslIncludeProtocols="SSL_TLSv2" sslTrustStorePath="acetruststore.p12" sslTrustStorePassword="changeit" useSsl="true" xmlns="http://www.ibm.com/xmlns/prod/ace/11"/>
